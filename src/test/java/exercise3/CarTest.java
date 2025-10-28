@@ -14,7 +14,7 @@ class CarTest {
 
   @BeforeEach
   public void setUp() {
-      car = new Car("ZH420", 62000, 60, 0.077, 50);
+      car = new Car(50, 62000, "ZH420", 0.077, 60);
     }
 
     @Test
